@@ -2,10 +2,10 @@ from typing import Annotated
 
 from sqlalchemy.orm import Session
 from fastapi import APIRouter, Depends, HTTPException
-from database import SessionLocal
+from ..database import SessionLocal
 from starlette import status
 from .auth import get_current_user
-from models import Users
+from ..models import Users
 from passlib.context import CryptContext
 from pydantic import BaseModel, Field
 
