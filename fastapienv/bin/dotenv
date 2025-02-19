@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/Users/javiersaavedra/Code/On it/fastapi/fastapienv/bin/python3.12" "$0" "$@"
+'''exec' "/Users/javiersaavedra/Code/On it/fastapi_python/fastapienv/bin/python" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
